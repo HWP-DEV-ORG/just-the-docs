@@ -1,10 +1,3 @@
----
-title: Home
-layout: home
-nav_order: 1
-
----
-
 # Historized Tag Reference
 
 Auto-generated from Ignition historian tag list (`sqlth_te`) and reporting SQL views.
