@@ -1,22 +1,18 @@
 title: HWP Documentation
 description: HWP Documentation
-theme: just-the-docs
+
+# Use Just the Docs as a remote theme (works on GitHub Pages)
+remote_theme: just-the-docs/just-the-docs
 
 # GitHub Pages URL pieces
-#  - url    = org/user site
-#  - baseurl = repo name
-url: https://HWP-DEV-ORG.github.io
-baseurl: /just-the-docs
+url: "https://hwp-dev-org.github.io"
+baseurl: "/just-the-docs"
 
-# Aux links (upper-right corner)
 aux_links:
-  "Template Repository":
-    - "https://github.com/HWP-DEV-ORG/just-the-docs"
+  "Template Repository": "https://github.com/HWP-DEV-ORG/just-the-docs"
 aux_links_new_tab: true
 
-# Just the Docs configuration
 search_enabled: true
 
 just_the_docs:
-  # enable the sidebar nav
   nav_enabled: true
