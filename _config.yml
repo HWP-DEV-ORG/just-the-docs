@@ -2,19 +2,21 @@ title: HWP Documentation
 description: HWP Documentation
 theme: just-the-docs
 
-url: https://HWP-DEV-ORG.github.io/just-the-docs
+# GitHub Pages URL pieces
+#  - url    = org/user site
+#  - baseurl = repo name
+url: https://HWP-DEV-ORG.github.io
+baseurl: /just-the-docs
 
+# Aux links (upper-right corner)
 aux_links:
-  Template Repository: https://github.com/HWP-DEV-ORG/just-the-docs
+  "Template Repository":
+    - "https://github.com/HWP-DEV-ORG/just-the-docs"
+aux_links_new_tab: true
+
+# Just the Docs configuration
+search_enabled: true
 
 just_the_docs:
-  navigation: # Define navigation menu
-    - title: "Home"
-      url: /
-    - title: "guides"
-      url: /guides
-      children:
-      - title: "Introduction"
-        url: /guides/intro
-      - title: "Advanced Topics"
-        url: /guides/Running_on_HPC
+  # enable the sidebar nav
+  nav_enabled: true
